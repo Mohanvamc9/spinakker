@@ -1,0 +1,9 @@
+
+version: '3.8'
+services:
+  ashuapp1:
+    image: myapp:v1
+    build: .
+    container_name: mk
+    ports:
+      - "1993:80"
